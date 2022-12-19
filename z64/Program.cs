@@ -11,7 +11,7 @@ else PrintValue(m+1,n);
 void PrintValue(int m, int max)
 {
     if (m > max) return;
-    Console.Write($" {m}");
+    Console.Write($"{m} ");
     PrintValue(m + 2, max);
 }
 
